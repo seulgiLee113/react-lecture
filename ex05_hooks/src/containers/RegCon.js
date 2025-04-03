@@ -11,6 +11,7 @@ const RegCon = () => {
 
     const onChange = (e) => {
         const {value, name} = e.target;
+        // console.log("input--->", e.target.value);
         dispatch( {type : "CHANGE_INPUT", name, value, form:"register"});
     }
 
